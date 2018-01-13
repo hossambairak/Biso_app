@@ -1,0 +1,68 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bisostore.fragments.LoginFragment"
+    android:background="#e9e9e9">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textDirection="rtl"
+        android:layoutDirection="rtl"
+        android:padding="20dp">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <EditText
+            android:id="@+id/ad_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="عنوان الإعلان" />
+
+
+        <EditText
+            android:id="@+id/ad_period"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ad_title"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+
+            android:textDirection="rtl"            android:hint="المدة الزمنية للإعلان" />
+
+        <EditText
+            android:id="@+id/ad_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ad_period"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="السعر"
+            android:textDirection="rtl" />
+
+        <EditText
+            android:id="@+id/ad_text"
+            android:lines="8"
+            android:minLines="6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ad_price"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="نص الإعلان" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

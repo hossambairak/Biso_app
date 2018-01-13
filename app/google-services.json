@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "517034888826",
+    "project_id": "firebase-bisostore"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517034888826:android:6c0d43f736cd66a4",
+        "android_client_info": {
+          "package_name": "com.bisostore.biso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517034888826-mfpgn32pk8fs8u09180agttvau2httn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bisostore.biso",
+            "certificate_hash": "96fe04e8e50c0b2f1f2a2a94ab5034969f4e0f25"
+          }
+        },
+        {
+          "client_id": "517034888826-lp7lbujo3jniqss2h1fbihcsajn44223.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyvCyGYRLi3JhJ5w4-_F1LJrorCfecurI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

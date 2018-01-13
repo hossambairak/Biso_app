@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Bisostore</string>
+    <string name="home">HomePage</string>
+    <string name="search">Search</string>
+
+    <string name="special_details">Special details</string>
+    <string name="facebook_app_id">1120485121458179</string>
+    <string name="fb_login_protocol_scheme">fb1120485121458179</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="most_ads">Most viewied ads</string>
+    <string name="recent_ads">Recent ads</string>
+    <string name="categories">Categroies</string>
+    <string name="login">Login</string>
+    <string name="sign">Sign up</string>
+    <string name="fav">My favorites</string>
+    <string name="control">Control panel</string>
+    <string name="MyAds">My ads</string>
+    <string name="search_result">Search results</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <!--icons-->
+    <string name="vintage40">\ue01b</string>
+    <string name="home84">\ue01f</string>
+    <string name="car11">\ue009</string>
+    <string name="female96">\ue017</string>
+    <string name="house114">\ue024</string>
+    <string name="project">\ue035</string>
+    <string name="hand27">\ue01c</string>
+    <string name="cpu1">\ue011</string>
+    <string name="man15">\ue02b</string>
+    <string name="job5">\ue027</string>
+    <string name="businessman64">\ue007</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_main4">Main4Activity</string>
+</resources>

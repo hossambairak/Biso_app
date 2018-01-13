@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">متجر بيسو</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="search">البحث</string>
+    <string name="most_ads">الإعلانات الأكثر مشاهدة</string>
+    <string name="recent_ads">أحدث الإعلانات</string>
+    <string name="categories">الفئات</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="sign">تسجيل حساب</string>
+    <string name="control">لوحة التحكم</string>
+    <string name="MyAds">إعلاناتي</string>
+    <string name="fav">المفضلة</string>
+    <string name="search_result">نتائج البحث</string>
+    <string name="special_details">تفاصيل خاصة</string>
+    <string name="name">الاسم</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+</resources>

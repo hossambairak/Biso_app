@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bisostore.fragments.MainFragment"
+    android:background="#e9e9e9">
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/recent_ads"
+            android:textColor="#373737"
+            android:layout_margin="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp" />
+
+        <FrameLayout
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/container_top_row"></FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/most_ads"
+            android:textColor="#373737"
+            android:layout_margin="5dp"
+            android:padding="10dp" />
+
+        <FrameLayout
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/container_middle_row"></FrameLayout>
+
+        <TextView
+            android:textColor="#373737"
+            android:text="@string/categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_margin="5dp" />
+
+        <FrameLayout
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container_last_row">
+
+        </FrameLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+</FrameLayout>

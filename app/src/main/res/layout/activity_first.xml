@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bisostore.biso.FirstActivity">
+
+    <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="380dp"
+    android:id="@+id/container_first"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+    </FrameLayout>
+
+    <TextView
+        android:text="يرجى اختيار الدولة"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_above="@+id/container_first"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="18dp"
+            android:id="@+id/language_group">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layoutDirection="rtl"
+                android:layout_gravity="right"
+                android:text="العربية"
+                android:textSize="12sp"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/language_ar" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layoutDirection="rtl"
+                android:layout_gravity="right"
+                android:text="English"
+                android:textSize="12sp"
+                android:id="@+id/language_en" />
+        </RadioGroup>
+
+        <TextView
+            android:text="يرجى اختيار اللغة"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginBottom="15dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

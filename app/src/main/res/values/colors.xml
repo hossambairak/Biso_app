@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary2">#6fe14a</color>
+    <color name="colorPrimaryDark2">#13bd24</color>
+    <color name="purple">#9c27b0</color>
+    <!--colors for parts-->
+    <color name="part1">#FF0AA91A</color>
+    <color name="part2">#bc1a32</color>
+    <color name="part3">#FF298BD6</color>
+    <color name="part4">#FFF2EE0B</color>
+    <color name="part5">#FFCC0BF2</color>
+    <color name="part6">#FF8C7A8F</color>
+    <color name="part7">#FF25FF0D</color>
+    <color name="part8">#FFAFA1B2</color>
+    <color name="part9">#eb2cde</color>
+    <color name="part10">#8800ff</color>
+    <color name="part11">#f72100</color>
+    <color name="part12">#32fcb6</color>
+    <integer-array name="part_colors">
+        <item>@color/part1</item>
+        <item>@color/part2</item>
+        <item>@color/part3</item>
+        <item>@color/part4</item>
+        <item>@color/part5</item>
+        <item>@color/part6</item>
+        <item>@color/part7</item>
+        <item>@color/part8</item>
+        <item>@color/part9</item>
+        <item>@color/part10</item>
+        <item>@color/part11</item>
+        <item>@color/part12</item>
+    </integer-array>
+</resources>
